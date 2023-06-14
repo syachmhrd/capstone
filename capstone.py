@@ -137,7 +137,7 @@ st.write("Berdasarkan data diatas dapat diketahui bahwa pada tahun 2022 sebanyak
 st.write("Selain itu pada tahun 2022 Provinsi Jawa Tengah menghasilkan timbulan sampah terbanyak, namun penanganan sampahnya kurang dari 50%.")
 
 
-jenis_sampah = pd.read_csv('https://drive.google.com/uc?export=download&id=1FH_y1c2duwH2X4wr_RofqRirqWfEN4YP')
+jenis_sampah = pd.read_csv('Jenis_Sampah.csv')
 jenis_sampah.head()
 jenis_sampah=jenis_sampah.fillna(0)
 
