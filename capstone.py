@@ -8,7 +8,7 @@ st.set_page_config(
     layout='wide'
 )
 
-capaian = pd.read_csv('https://drive.google.com/uc?export=download&id=10BHmaJT3UpSL_AMINnH9qwv71J9RuscY')
+capaian = pd.read_csv('Capaian.csv')
 
 st.title("Penanganan Sampah di Indonesia")
 st.caption("Oleh: Syach Riyan Muhammad Ardiyansyah")
