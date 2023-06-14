@@ -84,7 +84,7 @@ data2 = pd.pivot_table(
 
 choice = st.selectbox(
     "Ingin pilih provinsi tertentu?",
-    ['Semua Provinsi Saja','Ya']
+    ['Semua Provinsi','Ya']
 )
 choice
 
